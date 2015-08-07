@@ -1,0 +1,306 @@
+@charset "utf-8";
+
+section {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	margin: 4rem 2% 2rem;
+	background-color: #ffecb3;
+	overflow: hidden;
+}
+
+section .suit {
+	float: left;
+	width: 6%;
+	height: 1px;
+	padding-bottom: 3000px;
+	margin-bottom: -3000px;
+	background-color: #ffa000;
+}
+
+section .main 
+{
+	position: relative;
+	width: 94%;
+	float: left;
+	height: 440px;
+}
+
+.main hgroup{
+	width: 86%;
+	position: absolute;
+	top: 80px;
+	right: 0;
+	font-weight: normal;
+	border-top: 1px solid #795548;
+	border-bottom: 1px solid #795548;
+	padding: 10px 0 18px;
+}
+
+.main h2{
+	font-weight: normal;
+	font-size: 1.2rem;
+}
+
+.main h1 {
+	font-weight: normal;
+	font-size: 1.6rem;
+	margin-bottom: 80px;
+	border-bottom: 1px solid #795548;
+}
+
+.main hr {
+	border: none;
+	border-top: 1px solid #795548;
+	margin: 12px 0;
+}
+
+.main .bottom {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+.bottom h3 {
+	font-size: 3.4rem;
+	text-align: center;
+	color: #ffa000;
+}
+
+.bottom table{
+	font-size: 10px;
+	color: #795548;
+	margin: 0 2% 8px;
+	text-align: center;
+	width: 96%;
+}
+
+.bottom .a {
+	background-color: #795548;
+	color: #ffecb3;
+	border: 1px solid #795548;
+	width: 10px;
+}
+
+.bottom .side {
+	border: 1px solid #795548;
+	width: 52px;
+}
+
+.bottom .rule {
+	border: 1px solid #795548;
+	width: 72px;
+}
+
+.bottom .page {
+	border: 1px solid #795548;
+	width: 22px;
+}
+
+.bottom .number {
+	width: 70px;
+}
+
+.bottom .kosen {
+	padding: 0 4px;
+	font-weight: bold;
+	text-align: right;
+}
+
+@media only screen and (min-width: 400px) {
+section .main 
+{
+	height: 560px;
+}
+
+.main hgroup{
+	width: 76%;
+	top: 90px;
+	padding: 10px 0 42px;
+
+}
+
+.main h1 {
+	margin-bottom: 120px;
+}
+
+.main hr {
+	margin: 18px 0;
+}
+
+.bottom h3 {
+	font-size: 4rem;
+}
+}
+
+@media only screen and (min-width: 480px) {
+section {
+	margin: 4rem 5% 2rem;
+}
+
+section .main 
+{
+	height: 660px;
+}
+
+.main hgroup{
+	top: 120px;
+	padding: 10px 0 50px;
+
+}
+
+.main h1 {
+	margin-bottom: 140px;
+}
+
+.main hr {
+	margin: 20px 0;
+}
+
+.bottom h3 {
+	font-size: 3.6rem;
+}
+
+.bottom table{
+	margin: 0 4% 16px;
+	width: 92%;
+}
+}
+
+@media only screen and (min-width: 600px) {
+section .main 
+{
+	height: 840px;
+}
+
+.main hgroup{
+	width: 70%;
+	top: 140px;
+	padding: 10px 0 42px;
+}
+
+.main h1 {
+	margin-bottom: 240px;
+	font-size: 2rem;
+}
+
+.main hr {
+	margin: 24px 0;
+}
+
+.bottom h3 {
+	font-size: 4.8rem;
+}
+
+.bottom table {
+	font-size: 16px;
+}
+
+.bottom .a {
+	width: 20px;
+}
+
+.bottom .side {
+	border: 1px solid #795548;
+	width: 70px;
+}
+
+.bottom .rule {
+	border: 1px solid #795548;
+	width: 100px;
+}
+
+.bottom .page {
+	border: 1px solid #795548;
+	width: 40px;
+}
+
+.bottom .number {
+	width: 100px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+section {
+	margin: 8.8rem 7% 2rem;
+}
+
+section .main 
+{
+	height: 920px;
+}
+
+.main hgroup{
+	top: 160px;
+}
+
+.main h2 {
+	font-size: 1.4rem;
+}
+
+.main h1 {
+	margin-bottom: 260px;
+	font-size: 2.3rem;
+}
+
+.main hr {
+	margin: 26px 0;
+}
+
+.bottom h3 {
+	font-size: 6rem;
+	line-height: 6rem;
+}
+
+}
+
+@media only screen and (min-width: 900px) {
+
+section .main 
+{
+	height: 1080px;
+}
+
+.main hgroup{
+	top: 180px;
+}
+
+.main h1 {
+	margin-bottom: 340px;
+	font-size: 2.6rem;
+}
+
+.bottom h3 {
+	font-size: 7rem;
+	line-height: 7.2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+
+section {
+	width: 880px;
+	margin: 8.8rem auto 2rem;
+}
+
+section .main 
+{
+	height: 1120px;
+}
+
+.main hgroup{
+	top: 200px;
+}
+
+.main h2 {
+	font-size: 1.6rem;
+}
+
+.main h1 {
+	margin-bottom: 360px;
+	font-size: 3rem;
+}
+
+.bottom h3 {
+	font-size: 8rem;
+	line-height: 8.2rem;
+}
+
+}

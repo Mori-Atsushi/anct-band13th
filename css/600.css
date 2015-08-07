@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 600px) {
+nav .menu_img {
+	height: 260px;
+}
+
+.note .photo {
+	height: 308px;
+	margin: 14px 10%;	
+}
+
+footer {
+	padding: 0.5rem 5%;	
+}
+
+footer h5 {
+	font-size: 0.8rem;
+}
+
+footer li {
+	font-size: 0.7rem;
+}
+
+footer .r_left {
+	float: left;
+	width: 44%;
+	margin: 0 3%;
+}
+
+aside .back {
+	left: 32px;
+}
+
+aside .next {
+	right: 32px;
+}
+}

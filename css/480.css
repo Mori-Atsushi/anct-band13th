@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 480px) {
+html, body {
+	font-size: 20px;
+}
+nav .menu_img {
+	height: 200px;
+}
+
+.note {
+	margin: 4rem 5% 2rem;
+}
+
+.note p {
+	line-height: 28px;
+	margin: 0 4% 28px;
+}
+
+.note h2 {
+	line-height: 56px;
+}
+
+.note h3 {
+	line-height: 28px;
+}
+
+.note h4 {
+	line-height: 28px;
+}
+
+.note .main {
+	background-image: url("../img/480/dot.png");
+}
+
+.note .photo {
+	height: 280px;
+	margin: 14px 5%;	
+}
+
+.note ul {
+	margin-bottom: 28px;
+}
+
+.note li {
+	line-height: 28px;
+}
+aside .back {
+	left: 24px;
+}
+
+aside .next {
+	right: 24px;
+}
+}

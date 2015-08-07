@@ -1,0 +1,33 @@
+@media only screen and (min-width: 1024px) {
+
+nav {
+	right: 50%;
+	margin: 0 -440px;
+}
+
+.note {
+	width: 836px;
+	padding: 22px;
+	margin: 8.8rem auto 2rem;
+}
+
+.note .photo {
+	height: 252px;	
+}
+
+footer .footer{
+	width: 980px;
+	margin: 0 auto;
+}
+
+aside .back {
+	left: 50%;
+	margin: 0 -438px;
+}
+
+aside .next {
+	right: 50%;
+	margin: 0 -438px;
+}
+
+}

@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+.note img {
+	display: block;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);	
+	height: 144px;
+	margin: 12px auto 36px;
+}
+
+.note h3 {
+	text-align: center;
+	font-size: 1rem;
+}
+
+@media only screen and (min-width: 480px) {
+.note img{
+	height: 172px;
+	margin: 14px auto 42px;
+}
+}
+
+@media only screen and (min-width: 600px) {
+.note img{
+	height: 112px;
+}
+
+.note .spon {
+	float: left;
+	width: 50%;
+}
+}
+
+@media only screen and (min-width: 700px) {
+.note img{
+	height: 140px;
+}
+}
+
+@media only screen and (min-width: 900px) {
+.note img{
+	height: 112px;
+}
+
+.note .spon {
+	width: 33.3%;
+}
+}

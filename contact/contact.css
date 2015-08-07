@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+.main .twitter {
+	max-width: 340px;
+	margin: 0 auto 24px;
+}
+
+.main .facebook {
+	max-width: 340px;
+	margin: 0 auto 24px;
+}
+
+.twitter iframe {
+	height: 425px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);	
+}
+
+.facebook span {
+	height: 431px !important;
+}
+
+.facebook iframe {
+	height: 431px !important;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);	
+}
+
+.main .conform {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	background-color: #eee;
+	margin: -12px 2% 12px;
+	padding: 12px 0;
+}
+
+.main form {
+	padding: 0 4%;
+}
+
+form .lineform {
+	height: 72px;
+}
+
+form .freeform {
+	height: 120px;
+}
+
+form label {
+	font-size: 0.8rem;
+	line-height: 24px;
+}
+
+form span {
+	font-size: 0.7rem;
+	background-color: #333;
+	color: #eee;
+	line-height: 24px;
+	padding: 3px;
+	margin: 0 6px;
+}
+
+form input {
+	display: block;
+	width: 96%;
+	border: 1px solid #ddd;
+	background-color: #fafafa;
+	height: 30px;
+	margin: 8px 0;
+	font-size: 0.8rem;
+	line-height: 24px;
+	border-radius: 8px;
+	padding: 0 2%;
+}
+
+form textarea {
+	width: 96%;
+	border: 1px solid #ddd;
+	background-color: #fafafa;
+	height: 74px;
+	margin: 8px 0;
+	font-size: 0.8rem;
+	line-height: 24px;
+	border-radius: 8px;
+	padding: 0 2%;
+}
+
+form button {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);	
+	font-size: 1rem;
+	color: #222;
+	margin: 17px 0;
+	line-height: 36px;
+	padding: 0 8px;
+	background-color: #fafafa;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+}
+
+@media only screen and (min-width: 480px) {
+.main .twitter {
+	margin: 0 auto 28px;
+}
+
+.main .facebook {
+	max-width: 340px;
+	margin: 0 auto 32px;
+}
+
+.twitter iframe {
+	height: 495px;
+}
+
+.facebook span {
+	height: 500px !important;
+}
+
+.facebook iframe {
+	height: 500px !important;
+}
+
+.main .conform {
+	margin: -14px 2% 14px;
+	padding: 14px 0;
+}
+
+form .lineform {
+	height: 84px;
+}
+
+form .freeform {
+	height: 140px;
+}
+
+form label {
+	line-height: 28px;
+}
+
+form span {
+	line-height: 28px;
+	padding: 0 5px;
+	margin: 0 10px;
+}
+
+form input {
+	height: 32px;
+	margin: 9px 0;
+	line-height: 28px;
+}
+
+form textarea {
+	height: 84px;
+	margin: 10px 0;
+	font-size: 0.8rem;
+	line-height: 28px;
+	border-radius: 8px;
+	padding: 0 2%;
+}
+
+form button {
+	margin: 18px 0;
+	line-height: 40px;
+	padding: 0 8px;
+}
+}
+
+@media only screen and (min-width: 600px) {
+.main .f_left {
+	float: left;
+	width: 47.5%;
+}
+
+.main .f_twitter {
+	margin-right: 5%;
+}
+
+.main .conform {
+	margin: -14px 4% 14px;
+}
+
+}
+
+@media only screen and (min-width: 900px) {
+form .l_input {
+	float: left;
+	width: 47%;
+}
+
+form  .f_name {
+	margin-right: 6%;
+}
+
+}

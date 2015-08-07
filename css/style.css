@@ -1,0 +1,251 @@
+@charset "utf-8";
+
+html, body {
+	background-color: #CCC;
+	color: #4e342e;
+	overflow-x: hidden;	
+}
+
+header {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	background-color: #795548;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 997;
+	color: #eee;
+}
+
+header span {
+	display: none;
+}
+
+header .menu {
+	position: absolute;
+	margin: -12px 3%;
+	top: 1.1rem;
+	left: 0;
+}
+
+header h3 {
+	padding: 0.4rem;
+	text-align: center;
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+
+nav {
+	box-shadow: 0 4px 6px rgba(0,0,0,0.4); 
+	position: fixed;
+	background-color: #EEE;
+	width: 80%;
+	height: 100%;
+	top: 0;
+	left: -100%;
+	z-index: 999;
+}
+
+nav .menu_img {
+	width: 100%;
+	height: 160px;
+	background-image: url('../img/menu_img.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+nav hgroup {
+	text-shadow: 0 0 5px #111;
+	color: #EEE;
+	position: absolute;
+	bottom: 0.4rem;
+	left: 2%;
+}
+
+nav h5 {
+	font-weight: normal;
+	font-size: 1rem;
+}
+
+nav h4 {
+	font-weight: normal;
+	font-size: 1.6rem;
+}
+
+nav a {
+	color: #333;
+	font-size: 1.2rem;
+	text-decoration: none;
+}
+
+nav li {
+	padding: 0.8rem;
+	border-bottom: 1px solid #ddd;
+}
+
+nav i {
+	padding: 0 8% 0 4%;
+}
+
+.note {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	margin: 4rem 2% 2rem;
+	background-color: #f8f8f8;
+	padding: 0.5rem 2% 1.5rem;
+	color: #222;
+}
+
+.note hgroup {
+	float: right;
+	color: #1e88e5;
+}
+
+.note h6 {
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: normal;
+}
+
+.note .no {
+	border-bottom: 1px dashed #1e88e5;
+}
+
+.note h1 {
+	font-size: 1.4rem;
+	font-weight: normal;
+	border-top: 1px solid #1e88e5;
+	border-bottom: 1px solid #1e88e5;
+}
+
+.note .main {
+	border-bottom: 1px solid #1e88e5;
+	background-image: url("../img/dot.png");
+}
+
+.note .photo {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);	
+	background-size: cover;
+	background-position: center center;
+	height: 192px;
+	margin: 12px 5%;	
+}
+
+.note h2 {
+	line-height: 48px;
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+
+.note h3 {
+	line-height: 24px;
+	font-weight: normal;
+	font-size: 1.2rem;
+}
+
+.note h4 {
+	line-height: 24px;
+	font-size: 1rem;
+	font-weight: normal;
+	margin: 0 5%;
+}
+
+.note p {
+	line-height: 24px;
+	margin: 0 4% 24px;
+	font-size: 0.8rem;
+}
+
+.note ul {
+	margin-bottom: 24px;
+}
+
+.note li {
+	font-size: 0.8rem;
+	line-height: 24px;
+	margin: 0 8%;
+}
+
+aside {
+	height: 80px;
+}
+
+aside .page {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	background-color: #8d6e63;
+	position: absolute;
+	color: #eee;
+	border-radius: 6px;
+}
+
+aside .back {
+	left: 10px;
+}
+
+aside .next {
+	right: 10px;
+}
+
+aside h4 {
+	padding: 10px;
+	font-weight: normal;
+}
+
+footer {
+	background-color: #795548;
+	color: #eee;
+	padding: 0.5rem 10%;
+}
+
+footer h5 {
+	font-size: 1rem;
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+	margin: 1rem 0 0.5rem;
+}
+
+footer li {
+	font-size: 0.8rem;
+	line-height: 1.4rem;
+}
+
+footer li:before {
+	content: "> ";
+}
+
+footer hgroup {
+	margin: 2rem 0 1rem;
+}
+
+footer a {
+	color: #eee;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;	
+}
+
+footer h3 {
+	font-weight: normal;
+}
+
+footer h4 {
+	font-weight: normal;
+}
+
+.mask {
+	background-color: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	display: none;
+	z-index: 998;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}

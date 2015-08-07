@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+.note .circle {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	width: 192px;
+	height: 192px;
+	margin: 12px auto;
+	border-radius: 50%;
+	background-size: cover;
+	background-position: center center;
+}
+
+.note .first {
+	background-image: url("../img/first.jpg");
+}
+
+.note .second {
+	background-image: url("../img/second.jpg");
+}
+
+.note .third {
+	background-image: url("../img/third.jpg");
+}
+
+.note .collabo {
+	background-image: url("../img/song.jpg");
+}
+
+.note .enseble {
+	background-image: url("../img/enseble.jpg");
+}
+
+@media only screen and (min-width: 480px) {
+.note .circle {
+	width: 280px;
+	height: 280px;
+	margin: 14px auto;
+}
+}
+
+@media only screen and (min-width: 600px) {
+.note .circle {
+	width: 336px;
+	height: 336px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.note .circle {
+	width: 224px;
+	height: 224px;
+}
+
+.main .circle {
+	float: left;
+	margin: 14px 5% 42px;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+.note .l_music {
+	float: left;
+	width: 33%;
+}
+
+.l_music h2 {
+	font-size: 1.1rem;
+}
+
+.main .circle {
+	float: none;
+}
+}

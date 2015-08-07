@@ -1,0 +1,106 @@
+@media only screen and (min-width: 768px) {
+
+header .menu{
+	display: none;
+}
+
+header h3{
+	font-size: 1.2rem;
+}
+
+header span {
+	display: inline;
+}
+
+section {
+	position: relative;
+}
+
+nav {
+	width: 600px;
+	height: auto;
+	box-shadow: none; 
+	position: absolute;
+	background-color: transparent;
+	top: 3rem;
+	left: auto;
+	right: 5%;
+	z-index: 0;
+}
+
+nav .menu_img {
+	display: none;
+}
+
+nav li {
+	border-radius: 6px;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.4); 
+	float: left;
+	border: none;
+	width: 100px;
+	text-align: center;
+	font-size: 0.8rem;
+	background-color: #fff8e1;
+	margin: 10px 5px;
+	padding: 12px 2px 40px;
+}
+
+nav .fa {
+	font-size: 1.6rem;
+	line-height: 3rem
+}
+
+nav span:before {
+	content: "\A";
+	white-space: pre;
+}
+
+.note {
+	margin: 8.8rem 7% 2rem;
+}
+
+.note .photo {
+	width: 46%;
+	margin: 14px 2%;
+	height: 224px;	
+}
+
+.note .text {
+	margin-top: 28px;
+	width: 50%;
+}
+
+.note .l_pic {
+	float: left;
+}
+
+.note .l_text{
+	float: left;
+}
+
+.note .r_pic {
+	float: right;
+}
+
+.note .r_text{
+	float: right;
+}
+
+aside .back {
+	left: 54px;
+}
+
+aside .next {
+	right: 54px;
+}
+
+footer {
+	padding: 0.5rem 2%;	
+}
+
+footer .r_left {
+	float: left;
+	width: 29.33%;
+	margin: 0 2%;
+}
+}
