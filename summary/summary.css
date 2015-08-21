@@ -126,6 +126,7 @@
 }
 
 .big .change2{
+	cursor: pointer;
 	text-shadow: 0 0 5px #111;
 	position: absolute;
 	top: 50%;

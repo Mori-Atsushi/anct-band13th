@@ -83,30 +83,30 @@
 			<h2>お問い合わせフォーム</h2>
 			<p>質問、ご意見等ありましたらお気軽にお知らせください。</p>
 			<div class="conform">
-				<form>
+				<form id="contact_form" action="../php/form.php" method="post">
 					<div class="clearfix">
 						<div class="lineform l_input f_name">
 							<label for="form_name">お名前</label><span>必須</span>
-							<input id="form_name" type="text" placeholder="例) 明石 太郎">
+							<input id="form_name" type="text" placeholder="例) 明石 太郎" name="name">
 						</div>
 						<div class="lineform l_input">
-							<label or="form_email">メールアドレス</label><span>必須</span>
-							<input type="email" id="form_email" placeholder="例) contact@anct-band.sakura.ne.jp">
+							<label for="form_email">メールアドレス</label><span>必須</span>
+							<input type="email" id="form_email" placeholder="例) contact@anct-band.sakura.ne.jp" name="mail">
 						</div>
 					</div>
 					<div class="clearfix">
 						<div class="lineform l_input">
 							<label for="form_tel">電話番号</label>
-							<input type="tel" id="form_tel" placeholder="例) 080-1234-5678">
+							<input type="tel" id="form_tel" placeholder="例) 080-1234-5678" name="phone">
 						</div>
 					</div>
 
 					<div class="freeform">
 						<label for="form_hope">お問い合わせ内容</label><span>必須</span>
-						<textarea id="form_hope"></textarea>
+						<textarea name="message" id="form_hope"></textarea>
 					</div>
 					<div class="confirmation">
-						<button type="confirmation" id="confirmation" class="shadow1"><i class="fa fa-envelope-o fa-fw"></i>送信する</button>
+						<button type="submit" id="confirmation" class="shadow1"><i class="fa fa-envelope-o fa-fw"></i>送信する</button>
 					</div>				
 				</form>
 			</div>
@@ -137,17 +137,17 @@
 				<div class="r_left">
 					<h5>明石高専吹奏楽部 公式サイト</h5>
 					<ul>
-						<a target="_blank" href="http://anct-band.sakura.ne.jp"><li>トップ</li></a>
-						<a target="_blank" href="http://anct-band.sakura.ne.jp/about/"><li>活動紹介</li></a>
-						<a target="_blank" href="http://anct-band.sakura.ne.jp/information/"><li>演奏会情報</li></a>
-						<a target="_blank" href="http://anct-band.sakura.ne.jp/announcements/"><li>お知らせ</li></a>
+						<a href="http://anct-band.sakura.ne.jp"><li>トップ</li></a>
+						<a href="http://anct-band.sakura.ne.jp/about/"><li>活動紹介</li></a>
+						<a href="http://anct-band.sakura.ne.jp/information/"><li>演奏会情報</li></a>
+						<a href="http://anct-band.sakura.ne.jp/announcements/"><li>お知らせ</li></a>
 					</ul>
 				</div>
 				<div class="r_left">
 					<h5>コミュニティー</h5>
 					<ul>
-						<a target="_blank" href="https://twitter.com/anctband"><li>Twitter</li></a>
-						<a target="_blank" href="https://www.facebook.com/anctband"><li>Facebook</li></a>
+						<a href="https://twitter.com/anctband"><li>Twitter</li></a>
+						<a href="https://twitter.com/anctband"><li>Facebook</li></a>
 					</ul>
 				</div>
 			</div>
@@ -163,6 +163,7 @@
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="../js/menu.js"></script>
+	<script src="../js/form.js"></script>
 <div id="fb-root"></div>
 </body>
 </html>
